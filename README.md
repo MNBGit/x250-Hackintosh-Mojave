@@ -32,17 +32,17 @@ Run Clover EFI bootloader download
 
 
 ## Step 3
-Mount the EFI partition of the USB key (This is NOT an EFI folder with the USB Key. It is a separate partition that need to be mounted)
-I use Clover Configurator.app for that (a small app like EFI mountain View works also. Or something like diskutil mount EFI but then I don't want it to get mixed up with real folders...)
+Mount the EFI partition of the USB key (This is __NOT__ an EFI folder with the USB Key. It is a separate partition that need to be mounted)
+I use Clover Configurator.app for mounting it (a small app like EFImountainView works also. Or something a command line such as "diskutil mount EFI" but then I don't want it to get mixed up with real folders and so on...)
 
 ## Step 4
-Copy the entire EFI folder in EFI parition of the USB Key
+Copy the entire EFI folder from this git into EFI parition of the USB Key
 
 ## Step 4
-Boot the USB an install mac OS
+Boot the USB and install mac OS
 
 ## Step 5.
-Copy the same entire EFI folder from the git (or the USB) to the EFI partition OF THE DISK this time.
+Copy the same entire EFI folder from the git (or the USB) to the EFI partition __of the disk__ this time.
 
 ## Final Notes
 Unibeast is an app that create the bootable mac OS USB + the necessary EFI files to boot. I don't remember if it works. If nothing works try that.
